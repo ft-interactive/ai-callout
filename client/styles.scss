@@ -1,16 +1,10 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
-/*
-      TODO: delete this comment
+.article-body p.last {
+	margin-bottom: 0;
+}
 
-      Write your code here - keep it neat!
-      Split logical parts of you project into components e.g.
-
-      /client
-        - /components
-            - /component-name
-                - styles.scss
-                - index.js
-                - template.html
-*/
+div.pd-embedded {
+	margin-top: 0;
+}
