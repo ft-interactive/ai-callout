@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: 'b471930a-e96f-11e6-893c-082c54a7f539',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/ai-callout get filled in by the ./configure script
@@ -9,9 +9,9 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-02-02T18:30:00Z'),
 
-  headline: 'Politics and the English Language',
+  headline: 'Interested in AI? Help shape our coverage',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'What do you want to know about automation and its impact on jobs?',
@@ -27,9 +27,9 @@ export default () => ({ // eslint-disable-line
   // },
 
   mainImage: {
-    title: '',
-    description: '',
-    url: '',
+    title: 'Interested in AI? Help shape our coverage',
+    description: 'Robot hand reaching out to human hand',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A61dde354-c6b1-11e6-9043-7e34c07b46ef?source=ig&width=2048&height=1152',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -45,7 +45,7 @@ export default () => ({ // eslint-disable-line
   title: '',
 
   // meta data
-  description: '',
+  description: 'A reader callout asking FT subscribers to help shape our coverage of the impact artificial intelligence and automation will have on jobs'
 
   /*
   TODO: Select Twitter card type -
