@@ -45,7 +45,7 @@ export default () => ({ // eslint-disable-line
   title: '',
 
   // meta data
-  description: 'A reader callout asking FT subscribers to help shape our coverage of the impact artificial intelligence and automation will have on jobs'
+  description: 'A reader callout asking FT subscribers to help shape our coverage of the impact artificial intelligence and automation will have on jobs',
 
   /*
   TODO: Select Twitter card type -
